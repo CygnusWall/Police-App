@@ -109,5 +109,15 @@ namespace Police_App.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_04_11_at_4_11_08_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-04-11 at 4.11.08 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
