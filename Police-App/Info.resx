@@ -57,9 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Use the navigation bar at the side of the screen to access the different 
-screens of the applicationYou can make use of the ALT + TAB key combination to cycle between recent 
-screens or double tap it to exit the application</value>
-  </data>
 </root>
