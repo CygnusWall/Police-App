@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Police_App
 {
@@ -15,6 +16,13 @@ namespace Police_App
         public Report()
         {
             InitializeComponent();
+
+
+        }
+
+        private void changeSize(object sender, EventArgs e)
+        {
+
         }
     }
 }

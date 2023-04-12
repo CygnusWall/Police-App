@@ -34,6 +34,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,16 +108,43 @@
             this.panel1.Size = new System.Drawing.Size(89, 321);
             this.panel1.TabIndex = 14;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(216, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(262, 37);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Emergency Numbers";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(95, 67);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(527, 228);
+            this.richTextBox1.TabIndex = 16;
+            this.richTextBox1.Text = "Emergency : 911\nPolice : 999\nFire : 990\nAmbulance : 811\nCrime Stoppers : 800-TIPS" +
+    "\nAnti Crime Hotline : 555\nODPM : 800-ODPM";
+            // 
             // Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(614, 321);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Info";
             this.Text = "Info";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -127,5 +156,7 @@
         private Button button2;
         private Button button1;
         private Panel panel1;
+        private Label label1;
+        private RichTextBox richTextBox1;
     }
 }

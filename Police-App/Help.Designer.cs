@@ -133,7 +133,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(96, 83);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(527, 64);
+            this.richTextBox1.Size = new System.Drawing.Size(527, 66);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged_1);
@@ -152,7 +152,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(89, 152);
+            this.label3.Location = new System.Drawing.Point(89, 139);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(299, 32);
             this.label3.TabIndex = 9;
@@ -163,7 +163,7 @@
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Location = new System.Drawing.Point(97, 191);
+            this.richTextBox2.Location = new System.Drawing.Point(97, 178);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(527, 40);
@@ -209,6 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(614, 321);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.richTextBox3);
