@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Police_App
 {
-    public partial class Form2 : Form
+    public partial class Upload : Form
     {
-        public Form2()
+        public Upload()
         {
             InitializeComponent();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

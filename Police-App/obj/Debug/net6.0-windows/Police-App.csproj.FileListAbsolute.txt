@@ -4,7 +4,6 @@ C:\Users\JosiahPolite\source\repos\Police-App\Police-App\bin\Debug\net6.0-window
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\bin\Debug\net6.0-windows\Police-App.dll
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\bin\Debug\net6.0-windows\Police-App.pdb
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police-App.csproj.AssemblyReference.cache
-C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police_App.Form1.resources
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police_App.Properties.Resources.resources
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police-App.csproj.GenerateResource.cache
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police-App.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,7 @@ C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-window
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police-App.pdb
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police-App.genruntimeconfig.cache
 C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\ref\Police-App.dll
+C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police_App.Home.resources
+C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police_App.Report.resources
+C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police_App.Resources.Form1.resources
+C:\Users\JosiahPolite\source\repos\Police-App\Police-App\obj\Debug\net6.0-windows\Police_App.Upload.resources

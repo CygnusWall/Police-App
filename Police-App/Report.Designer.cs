@@ -1,6 +1,6 @@
 ﻿namespace Police_App
 {
-    partial class Form2
+    partial class Report
     {
         /// <summary>
         /// Required designer variable.
@@ -113,7 +113,7 @@
             this.ClientSize = new System.Drawing.Size(624, 321);
             this.Controls.Add(this.panel1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Report";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
