@@ -7,11 +7,32 @@ namespace Police_App
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void home_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void report_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Report rp = new Report();
+            rp.ShowDialog();
+            this.Close();
+        }
+
+        private void upload_Click(object sender, EventArgs e)
         {
 
         }
 
-        
+        private void help_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void info_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

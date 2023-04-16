@@ -20,9 +20,12 @@ namespace Police_App
 
         }
 
-        private void changeSize(object sender, EventArgs e)
+        public void HOME_Click(object sender, EventArgs e)
         {
-
+            
+                Home f = new Home(); // This is bad
+                f.Show();
+            
         }
     }
 }
