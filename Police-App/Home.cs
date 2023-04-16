@@ -14,10 +14,18 @@ namespace Police_App
 
         private void report_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Report rp = new Report();
-            rp.ShowDialog();
-            this.Close();
+            //this.Hide();
+            //Report rp = new Report();
+            //rp.ShowDialog();
+            //this.Close();
+
+            Info info = new Info();
+            info.Focus();
+            info.Show();
+            //this.Hide();
+            info.StartPosition = FormStartPosition.Manual;
+            info.Location = this.Location;
+
         }
 
         private void upload_Click(object sender, EventArgs e)

@@ -112,6 +112,7 @@
             // 
             this.button6.BackgroundImage = global::Police_App.Properties.Resources.Upload_Video;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.FlatAppearance.BorderSize = 0;
             this.button6.Location = new System.Drawing.Point(171, 85);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(135, 141);
