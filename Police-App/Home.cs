@@ -9,7 +9,7 @@ namespace Police_App
 
         private void home_Click(object sender, EventArgs e)
         {
-            loadForm(new Home());
+            loadForm(new HomeContents());
         }
 
         private void report_Click(object sender, EventArgs e)

@@ -35,7 +35,9 @@
             this.btnReport = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -115,11 +117,23 @@
             // 
             // panelMain
             // 
+            this.panelMain.Controls.Add(this.button1);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(89, 0);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(535, 321);
             this.panelMain.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::Police_App.Properties.Resources.WhatsApp_Image_2023_04_11_at_4_11_08_PM;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(187, 99);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(100);
+            this.button1.Size = new System.Drawing.Size(132, 80);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Home
             // 
@@ -129,8 +143,9 @@
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel1);
             this.Name = "Home";
-            this.Text = "Form1";
+            this.Text = "Home";
             this.panel1.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -144,5 +159,6 @@
         private Button btnUpload;
         private Button btnReport;
         private Panel panelMain;
+        private Button button1;
     }
 }
