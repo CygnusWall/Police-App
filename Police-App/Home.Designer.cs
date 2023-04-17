@@ -34,7 +34,7 @@
             this.btnUpload = new System.Windows.Forms.Button();
             this.btnReport = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.btnChangeCountry = new System.Windows.Forms.Button();
+            this.panelMain = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -113,22 +113,20 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.home_Click);
             // 
-            // btnChangeCountry
+            // panelMain
             // 
-            this.btnChangeCountry.BackgroundImage = global::Police_App.Properties.Resources.WhatsApp_Image_2023_04_11_at_4_11_08_PM;
-            this.btnChangeCountry.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnChangeCountry.Location = new System.Drawing.Point(258, 112);
-            this.btnChangeCountry.Name = "btnChangeCountry";
-            this.btnChangeCountry.Size = new System.Drawing.Size(172, 86);
-            this.btnChangeCountry.TabIndex = 1;
-            this.btnChangeCountry.UseVisualStyleBackColor = true;
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(89, 0);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(535, 321);
+            this.panelMain.TabIndex = 1;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(624, 321);
-            this.Controls.Add(this.btnChangeCountry);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel1);
             this.Name = "Home";
             this.Text = "Form1";
@@ -145,6 +143,6 @@
         private Button btnHelp;
         private Button btnUpload;
         private Button btnReport;
-        private Button btnChangeCountry;
+        private Panel panelMain;
     }
 }
