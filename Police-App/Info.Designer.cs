@@ -48,20 +48,21 @@
             this.richTextBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox1.Location = new System.Drawing.Point(5, 67);
+            this.richTextBox1.Location = new System.Drawing.Point(9, 51);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(527, 228);
+            this.richTextBox1.Size = new System.Drawing.Size(515, 228);
             this.richTextBox1.TabIndex = 16;
             this.richTextBox1.Text = "Emergency : 911\nPolice : 999\nFire : 990\nAmbulance : 811\nCrime Stoppers : 800-TIPS" +
     "\nAnti Crime Hotline : 555\nODPM : 800-ODPM";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(537, 321);
+            this.ClientSize = new System.Drawing.Size(519, 282);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Name = "Info";

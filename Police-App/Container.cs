@@ -54,7 +54,9 @@ namespace Police_App
             f.Show();
         }
 
-        private void Home_Load(object sender, EventArgs e)
+       
+
+        private void Container_Load(object sender, EventArgs e)
         {
             loadForm(new Home());
         }

@@ -15,6 +15,26 @@ namespace Police_App
         public Home()
         {
             InitializeComponent();
+            
+
         }
+
+
+
+        private void btnChangeCountry_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            btnChangeCountry.Top = (ClientSize.Height - btnChangeCountry.Height) / 2;
+
+            btnChangeCountry.Left = (ClientSize.Width - btnChangeCountry.Width) / 2;
+
+            
+        }
+
+      
     }
 }

@@ -37,17 +37,18 @@
             this.button6.BackgroundImage = global::Police_App.Properties.Resources.Upload_Video;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.Location = new System.Drawing.Point(97, 85);
+            this.button6.Location = new System.Drawing.Point(88, 78);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(135, 141);
             this.button6.TabIndex = 3;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
             this.button7.BackgroundImage = global::Police_App.Properties.Resources.Upload_Photo;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Location = new System.Drawing.Point(302, 85);
+            this.button7.Location = new System.Drawing.Point(293, 78);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(134, 141);
             this.button7.TabIndex = 4;
@@ -59,7 +60,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(533, 321);
+            this.ClientSize = new System.Drawing.Size(519, 282);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Name = "Upload";
