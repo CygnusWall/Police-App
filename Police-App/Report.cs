@@ -23,9 +23,14 @@ namespace Police_App
         public void HOME_Click(object sender, EventArgs e)
         {
             
-                Home f = new Home(); // This is bad
+                Container f = new Container(); // This is bad
                 f.Show();
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
